@@ -1,7 +1,6 @@
 body {
     background: #111;
   }
-  
   .body {
     --duration: 3s;
     --angle: 45deg;
@@ -32,7 +31,6 @@ body {
         var(--circle-delay)
         infinite var(--circular-ease);
   }
-  
   @keyframes x {
     50% {
       background-position-x: calc(150% * sin(var(--angle)));
