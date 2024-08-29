@@ -1,5 +1,5 @@
 body{
-    background: #111;
+    background: #000000;
   }
   .body{
     --duration: 3s;
@@ -16,8 +16,8 @@ body{
     height: 20dvmin;
     background: radial-gradient(
       circle at center,
-      skyblue,
-      mediumblue 50%
+      rgb(158, 235, 135),
+      rgb(0, 205, 0) 50%
     );
     background-size: 200% 200%;
     background-position: left top;
