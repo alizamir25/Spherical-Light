@@ -1,7 +1,7 @@
-body {
+body{
     background: #111;
   }
-  .body {
+  .body{
     --duration: 3s;
     --angle: 45deg;
     --circular-ease: cubic-bezier(.37, 0, .63, 1);
@@ -31,13 +31,13 @@ body {
         var(--circle-delay)
         infinite var(--circular-ease);
   }
-  @keyframes x {
+  @keyframes x{
     50% {
       background-position-x: calc(150% * sin(var(--angle)));
     }
   }
   
-  @keyframes y {
+  @keyframes y{
     50% {
       background-position-y: calc(150% * cos(var(--angle)));
     }
